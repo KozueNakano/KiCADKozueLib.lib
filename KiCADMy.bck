@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: 2015年04月04日 12時11分11秒
+EESchema-DOCLIB  Version 2.0  Date: 2016/03/22 9:58:08
 #
 $CMP 78L05
 D Linear Regulator +5V
@@ -35,6 +35,14 @@ $ENDCMP
 $CMP MCP1790
 D Linear Regulator +5V
 K POWER REGUL
+$ENDCMP
+#
+$CMP MOSFET-N-BODYDIODE
+F transistors/mos/*.*
+$ENDCMP
+#
+$CMP MOSFET_N
+F transistors/mos/*.*
 $ENDCMP
 #
 $CMP TA48033S
